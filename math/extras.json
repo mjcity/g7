@@ -1,0 +1,580 @@
+{
+  "lessons": [
+    {
+      "title": "Equivalent ratios",
+      "rule": "Multiply or divide both parts of a ratio by the SAME nonzero number.",
+      "equation": "3/5 = 12/20",
+      "example": "3 × 4 = 12 and 5 × 4 = 20. Both parts grew by 4.",
+      "tip": "Adding the same number to both parts usually does not keep the ratio equivalent."
+    },
+    {
+      "title": "Cross products",
+      "rule": "For a/b = c/d, compare a × d with b × c. Equal cross products mean equal ratios (denominators cannot be zero).",
+      "equation": "2/3 = 8/12 because 2 × 12 = 3 × 8",
+      "example": "24 = 24, so the statement is true.",
+      "tip": "Cross-multiply diagonally, not straight across."
+    },
+    {
+      "title": "Missing values",
+      "rule": "Keep the same units in the same positions. Cross-multiply, then undo multiplication by dividing.",
+      "equation": "x/10 = 3/5 → 5x = 30 → x = 6",
+      "example": "Check: 6/10 simplifies to 3/5.",
+      "tip": "The cross product is an intermediate step, not automatically the missing value."
+    },
+    {
+      "title": "Unit rates",
+      "rule": "Divide to find how much for ONE. Label the answer with its units.",
+      "equation": "A 4 lb bag costs $10 → 10 ÷ 4 = $2.50/lb",
+      "example": "For best value, compare the cost of the same unit.",
+      "tip": "Round money at the end. A lower total price is not always a lower unit price."
+    },
+    {
+      "title": "Percent proportions",
+      "rule": "Percent means out of 100. Use part/whole = percent/100. Decide which quantity is missing.",
+      "equation": "18/x = 30/100 → 30x = 1,800 → x = 60",
+      "example": "18 is 30% of 60. Check: 0.30 × 60 = 18.",
+      "tip": "When the whole is missing, divide the part by the decimal percent."
+    },
+    {
+      "title": "Percent changes",
+      "rule": "A discount leaves 100% minus the discount. A fee on the reduced price uses that NEW price.",
+      "equation": "$100 with 20% off then a 10% fee → 100 × 0.80 × 1.10 = $88",
+      "example": "The final price is $12 below $100, a 12% reduction.",
+      "tip": "Successive percent changes usually cannot be combined by subtraction."
+    }
+  ],
+  "practice": [
+    {
+      "id": "extra-1",
+      "topic": "Equivalent ratios",
+      "prompt": "Are 4/7 and 20/35 equivalent?",
+      "value": "yes",
+      "unit": "",
+      "answer": "yes",
+      "steps": [
+        "Compare the factors from 4 to 20 and 7 to 35.",
+        "4 × 5 = 20 and 7 × 5 = 35.",
+        "Both use a factor of 5, so yes."
+      ],
+      "hints": [
+        "Compare the factors from 4 to 20 and 7 to 35.",
+        "4 × 5 = 20 and 7 × 5 = 35."
+      ],
+      "aliases": [],
+      "format": "Type yes or no."
+    },
+    {
+      "id": "extra-2",
+      "topic": "Equivalent ratios",
+      "prompt": "Complete the equivalent ratio: 5/8 = ?/40.",
+      "value": 25,
+      "unit": "",
+      "answer": "25",
+      "steps": [
+        "40 ÷ 8 = 5.",
+        "Multiply the numerator by the same factor: 5 × 5.",
+        "The missing numerator is 25."
+      ],
+      "hints": [
+        "40 ÷ 8 = 5.",
+        "Multiply the numerator by the same factor: 5 × 5."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-3",
+      "topic": "Equivalent ratios",
+      "prompt": "Are 6/9 and 10/15 equivalent?",
+      "value": "yes",
+      "unit": "",
+      "answer": "yes",
+      "steps": [
+        "Simplify both fractions.",
+        "6/9 = 2/3 and 10/15 = 2/3.",
+        "They are equivalent."
+      ],
+      "hints": [
+        "Simplify both fractions.",
+        "6/9 = 2/3 and 10/15 = 2/3."
+      ],
+      "aliases": [],
+      "format": "Type yes or no."
+    },
+    {
+      "id": "extra-4",
+      "topic": "Equivalent ratios",
+      "prompt": "Are 3/4 and 9/16 equivalent?",
+      "value": "no",
+      "unit": "",
+      "answer": "no",
+      "steps": [
+        "Check whether both quantities have the same multiplier.",
+        "3 × 3 = 9, but 4 × 3 = 12, not 16.",
+        "The ratios are not equivalent."
+      ],
+      "hints": [
+        "Check whether both quantities have the same multiplier.",
+        "3 × 3 = 9, but 4 × 3 = 12, not 16."
+      ],
+      "aliases": [],
+      "format": "Type yes or no."
+    },
+    {
+      "id": "extra-5",
+      "topic": "Equivalent ratios",
+      "prompt": "A mix uses 2 cups of juice for 5 cups of water. How many cups of juice go with 20 cups of water?",
+      "value": 8,
+      "unit": "cups",
+      "answer": "8 cups",
+      "steps": [
+        "Water grew by 20 ÷ 5 = 4.",
+        "Multiply the juice by 4: 2 × 4 = 8.",
+        "Use 8 cups of juice."
+      ],
+      "hints": [
+        "Water grew by 20 ÷ 5 = 4.",
+        "Multiply the juice by 4: 2 × 4 = 8."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-6",
+      "topic": "Cross products",
+      "prompt": "Are 7/12 and 14/24 proportional?",
+      "value": "yes",
+      "unit": "",
+      "answer": "yes",
+      "steps": [
+        "Cross products are 7 × 24 and 12 × 14.",
+        "Both products equal 168.",
+        "Yes, the ratios are proportional."
+      ],
+      "hints": [
+        "Cross products are 7 × 24 and 12 × 14.",
+        "Both products equal 168."
+      ],
+      "aliases": [],
+      "format": "Type yes or no."
+    },
+    {
+      "id": "extra-7",
+      "topic": "Cross products",
+      "prompt": "Are 5/6 and 15/20 proportional?",
+      "value": "no",
+      "unit": "",
+      "answer": "no",
+      "steps": [
+        "Compute 5 × 20 and 6 × 15.",
+        "100 is not equal to 90.",
+        "No, the ratios are not proportional."
+      ],
+      "hints": [
+        "Compute 5 × 20 and 6 × 15.",
+        "100 is not equal to 90."
+      ],
+      "aliases": [],
+      "format": "Type yes or no."
+    },
+    {
+      "id": "extra-8",
+      "topic": "Cross products",
+      "prompt": "In 3/8 = 9/24, what is the value of EACH cross product?",
+      "value": 72,
+      "unit": "",
+      "answer": "72",
+      "steps": [
+        "Multiply diagonally: 3 × 24 and 8 × 9.",
+        "3 × 24 = 72; 8 × 9 = 72.",
+        "Each cross product equals 72."
+      ],
+      "hints": [
+        "Multiply diagonally: 3 × 24 and 8 × 9.",
+        "3 × 24 = 72; 8 × 9 = 72."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-9",
+      "topic": "Missing values",
+      "prompt": "Solve x/14 = 3/7.",
+      "value": 6,
+      "unit": "",
+      "answer": "6",
+      "steps": [
+        "Cross-multiply: 7x = 14 × 3.",
+        "7x = 42, so x = 42 ÷ 7.",
+        "x = 6. Check: 6/14 = 3/7."
+      ],
+      "hints": [
+        "Cross-multiply: 7x = 14 × 3.",
+        "7x = 42, so x = 42 ÷ 7."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-10",
+      "topic": "Missing values",
+      "prompt": "Solve 4/9 = 20/x.",
+      "value": 45,
+      "unit": "",
+      "answer": "45",
+      "steps": [
+        "Cross-multiply: 4x = 9 × 20.",
+        "4x = 180, so x = 180 ÷ 4.",
+        "x = 45."
+      ],
+      "hints": [
+        "Cross-multiply: 4x = 9 × 20.",
+        "4x = 180, so x = 180 ÷ 4."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-11",
+      "topic": "Missing values",
+      "prompt": "Solve 2.5/4 = x/12.",
+      "value": 7.5,
+      "unit": "",
+      "answer": "7.5",
+      "steps": [
+        "12 is 3 times 4.",
+        "Multiply 2.5 by 3.",
+        "x = 7.5."
+      ],
+      "hints": [
+        "12 is 3 times 4.",
+        "Multiply 2.5 by 3."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-12",
+      "topic": "Missing values",
+      "prompt": "Solve (x + 2)/5 = 6/10.",
+      "value": 1,
+      "unit": "",
+      "answer": "1",
+      "steps": [
+        "Cross-multiply: 10(x + 2) = 30.",
+        "Divide by 10: x + 2 = 3.",
+        "Subtract 2: x = 1."
+      ],
+      "hints": [
+        "Cross-multiply: 10(x + 2) = 30.",
+        "Divide by 10: x + 2 = 3."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-13",
+      "topic": "Missing values",
+      "prompt": "Solve 3/(x − 1) = 6/8.",
+      "value": 5,
+      "unit": "",
+      "answer": "5",
+      "steps": [
+        "Cross-multiply: 3 × 8 = 6(x − 1).",
+        "24 = 6(x − 1), so 4 = x − 1.",
+        "Add 1: x = 5. Check the denominator is not zero."
+      ],
+      "hints": [
+        "Cross-multiply: 3 × 8 = 6(x − 1).",
+        "24 = 6(x − 1), so 4 = x − 1."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-14",
+      "topic": "Unit rates",
+      "prompt": "Five notebooks cost $8.75. What is the price of ONE notebook?",
+      "value": 1.75,
+      "unit": "dollars",
+      "answer": "1.75 dollars",
+      "steps": [
+        "Divide total cost by the number of notebooks.",
+        "8.75 ÷ 5 = 1.75.",
+        "Each notebook costs $1.75."
+      ],
+      "hints": [
+        "Divide total cost by the number of notebooks.",
+        "8.75 ÷ 5 = 1.75."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-15",
+      "topic": "Unit rates",
+      "prompt": "A cyclist travels 42 miles in 3 hours. What is the average speed?",
+      "value": 14,
+      "unit": "miles/hour",
+      "answer": "14 miles/hour",
+      "steps": [
+        "Speed is distance ÷ time.",
+        "42 ÷ 3 = 14.",
+        "The speed is 14 miles per hour."
+      ],
+      "hints": [
+        "Speed is distance ÷ time.",
+        "42 ÷ 3 = 14."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-16",
+      "topic": "Unit rates",
+      "prompt": "A worker earns $67.50 in 5 hours. What is the hourly rate?",
+      "value": 13.5,
+      "unit": "dollars/hour",
+      "answer": "13.5 dollars/hour",
+      "steps": [
+        "Divide pay by hours worked.",
+        "67.50 ÷ 5 = 13.50.",
+        "The worker earns $13.50 per hour."
+      ],
+      "hints": [
+        "Divide pay by hours worked.",
+        "67.50 ÷ 5 = 13.50."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-17",
+      "topic": "Unit rates",
+      "prompt": "Rice costs $9.60 for 6 pounds. At that rate, how much do 10 pounds cost?",
+      "value": 16,
+      "unit": "dollars",
+      "answer": "16 dollars",
+      "steps": [
+        "First find the price per pound: 9.60 ÷ 6.",
+        "The unit price is $1.60. Multiply by 10.",
+        "10 pounds cost $16.00."
+      ],
+      "hints": [
+        "First find the price per pound: 9.60 ÷ 6.",
+        "The unit price is $1.60. Multiply by 10."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-18",
+      "topic": "Unit rates",
+      "prompt": "Store A sells 40 plates for $5.20. Store B sells 60 for $7.20. What is the LOWER price per plate?",
+      "value": 0.12,
+      "unit": "dollars",
+      "answer": "0.12 dollars",
+      "steps": [
+        "Store A: 5.20 ÷ 40 = 0.13.",
+        "Store B: 7.20 ÷ 60 = 0.12.",
+        "Store B is cheaper at $0.12 per plate."
+      ],
+      "hints": [
+        "Store A: 5.20 ÷ 40 = 0.13.",
+        "Store B: 7.20 ÷ 60 = 0.12."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-19",
+      "topic": "Percent proportions",
+      "prompt": "What is 35% of 80?",
+      "value": 28,
+      "unit": "",
+      "answer": "28",
+      "steps": [
+        "Change 35% to 0.35.",
+        "Multiply 0.35 × 80.",
+        "The part is 28."
+      ],
+      "hints": [
+        "Change 35% to 0.35.",
+        "Multiply 0.35 × 80."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-20",
+      "topic": "Percent proportions",
+      "prompt": "24 is 40% of what number?",
+      "value": 60,
+      "unit": "",
+      "answer": "60",
+      "steps": [
+        "Set up 24/x = 40/100.",
+        "40x = 2,400, so x = 2,400 ÷ 40.",
+        "The whole is 60."
+      ],
+      "hints": [
+        "Set up 24/x = 40/100.",
+        "40x = 2,400, so x = 2,400 ÷ 40."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-21",
+      "topic": "Percent proportions",
+      "prompt": "15 is what percent of 60?",
+      "value": 25,
+      "unit": "percent",
+      "answer": "25 percent",
+      "steps": [
+        "Use part ÷ whole × 100.",
+        "15 ÷ 60 = 0.25.",
+        "0.25 × 100 = 25%."
+      ],
+      "hints": [
+        "Use part ÷ whole × 100.",
+        "15 ÷ 60 = 0.25."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-22",
+      "topic": "Percent proportions",
+      "prompt": "What is 12.5% of 64?",
+      "value": 8,
+      "unit": "",
+      "answer": "8",
+      "steps": [
+        "12.5% = 0.125 = 1/8.",
+        "64 ÷ 8 = 8.",
+        "The answer is 8."
+      ],
+      "hints": [
+        "12.5% = 0.125 = 1/8.",
+        "64 ÷ 8 = 8."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-23",
+      "topic": "Percent proportions",
+      "prompt": "72 is 120% of what number?",
+      "value": 60,
+      "unit": "",
+      "answer": "60",
+      "steps": [
+        "120% = 1.20.",
+        "Divide the part by the decimal percent: 72 ÷ 1.20.",
+        "The whole is 60. A percent can exceed 100%."
+      ],
+      "hints": [
+        "120% = 1.20.",
+        "Divide the part by the decimal percent: 72 ÷ 1.20."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-24",
+      "topic": "Percent changes",
+      "prompt": "A $50 jacket is 20% off. What is the sale price?",
+      "value": 40,
+      "unit": "dollars",
+      "answer": "40 dollars",
+      "steps": [
+        "20% off leaves 80% of the price.",
+        "50 × 0.80 = 40.",
+        "The sale price is $40."
+      ],
+      "hints": [
+        "20% off leaves 80% of the price.",
+        "50 × 0.80 = 40."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-25",
+      "topic": "Percent changes",
+      "prompt": "A $40 meal has a 15% tip. What is the total before any tax?",
+      "value": 46,
+      "unit": "dollars",
+      "answer": "46 dollars",
+      "steps": [
+        "The tip is 40 × 0.15 = 6.",
+        "Add the tip: 40 + 6.",
+        "The total is $46."
+      ],
+      "hints": [
+        "The tip is 40 × 0.15 = 6.",
+        "Add the tip: 40 + 6."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-26",
+      "topic": "Percent changes",
+      "prompt": "A $200 ticket is discounted 25%, then a 10% fee is added to the discounted price. What is the final cost?",
+      "value": 165,
+      "unit": "dollars",
+      "answer": "165 dollars",
+      "steps": [
+        "After discount: 200 × 0.75 = 150.",
+        "Fee: 150 × 0.10 = 15.",
+        "Final cost: 150 + 15 = $165."
+      ],
+      "hints": [
+        "After discount: 200 × 0.75 = 150.",
+        "Fee: 150 × 0.10 = 15."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-27",
+      "topic": "Percent changes",
+      "prompt": "A $100 item is 20% off, then a 10% fee is added to its sale price. What is the overall percent decrease?",
+      "value": 12,
+      "unit": "percent",
+      "answer": "12 percent",
+      "steps": [
+        "Sale price: 100 × 0.80 = 80.",
+        "After fee: 80 × 1.10 = 88.",
+        "The decrease is $12 out of $100, or 12%."
+      ],
+      "hints": [
+        "Sale price: 100 × 0.80 = 80.",
+        "After fee: 80 × 1.10 = 88."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    },
+    {
+      "id": "extra-28",
+      "topic": "Percent changes",
+      "prompt": "A price rises from $30 to $36. What is the percent increase?",
+      "value": 20,
+      "unit": "percent",
+      "answer": "20 percent",
+      "steps": [
+        "Find the increase: 36 − 30 = 6.",
+        "Divide by the ORIGINAL price: 6 ÷ 30 = 0.20.",
+        "The increase is 20%."
+      ],
+      "hints": [
+        "Find the increase: 36 − 30 = 6.",
+        "Divide by the ORIGINAL price: 6 ÷ 30 = 0.20."
+      ],
+      "aliases": [],
+      "format": "Enter a number, decimal, or fraction."
+    }
+  ]
+}
