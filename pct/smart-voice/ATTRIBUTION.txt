@@ -1,0 +1,7 @@
+Smart Voice narration was synthesized locally with the same voice as the
+study guide: Kokoro-82M v1.0, af_heart (American English).
+Model weights: hexgrad, Apache-2.0. https://huggingface.co/hexgrad/Kokoro-82M
+ONNX runtime package: https://github.com/thewh1teagle/kokoro-onnx
+No model weights, voice packs, or external audio service ship with this site.
+Question tracks do not read options or answers; choice tracks list options
+without correctness hints. The separate worked-step tracks read that step only.
