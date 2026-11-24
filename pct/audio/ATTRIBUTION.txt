@@ -1,0 +1,16 @@
+NARRATION CREDITS
+
+This study guide contains locally generated synthetic narration in American English.
+Voice preset: af_heart.
+Model: Kokoro-82M v1.0 by hexgrad; the model weights are Apache-2.0.
+Upstream model card: https://huggingface.co/hexgrad/Kokoro-82M
+Local ONNX runtime implementation: https://github.com/thewh1teagle/kokoro-onnx
+Model files: https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
+
+The upstream card credits Koniwa (CC BY 3.0) and SIWIS (CC BY 4.0)
+as training datasets. These files are newly synthesized narration, not recordings
+copied from either dataset. The app does not ship model weights or voice packs.
+
+File key: o = original worksheet, p = practice; q = question and choices,
+w = worked solution and final answer. Correct choices are never identified
+in the prompt tracks.
